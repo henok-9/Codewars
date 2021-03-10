@@ -18,3 +18,8 @@ maskify("Nananananananananananananananana Batman!") == "########################
 
 def maskify(cc):
     return ''.join([cc.replace(cc, '#') for i in cc[:-4]]) + cc[-4:]
+
+
+
+
+
